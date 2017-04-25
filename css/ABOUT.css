@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img,
+h2,
+body,
+header,
+section,
+content,
+footer,
+p{
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+body{
+  background-color: rgb(241, 241, 241);
+  font-family: 微軟正黑體;
+  background-image: url("../img/back.jpeg");
+  background-size: cover;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 4;
+}
+
+.logo{
+  margin-left: 20px;
+  height: 170px;
+  width: auto;
+}
+
+.logo{
+  position: absolute;
+  z-index: 2;
+  max-width: 200px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 50px
+}
+
+.navigation{
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+}
+
+.navi{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.navi .n{
+  vertical-align: middle;
+  margin-right: 30px;
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: Arial Black;
+  color: #000000;
+}
+
+.n:hover{
+  position: relative;
+  transform:scale(1.2);
+}
+
+.navi li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navi a{
+  color: #000000;
+}
+
+section{
+  overflow: auto;
+  /*
+  overflow: auto;　//預設會自動使用捲軸
+  overflow:visible;　 //顯示的文字或圖片會直接超出範圍，不使用捲軸。
+  overflow:hidden;　//自動隱藏超出的文字或圖片。
+  overflow:scroll;　//自動產生捲軸。
+  overflow:inherit;　//繼承自父元素的可見性
+  */
+  width: 70%;
+  margin: auto;
+  position:relative;
+  padding-top: 120px;
+}
+
+.content{
+  width: 44%;/*跟section寬度一樣*/
+  height: auto;
+  float: left;
+  overflow: auto;
+  text-align: center;
+  padding-left: 10px;
+  z-index: 0;
+}
+
+.wen{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.circle{
+  width: 70%;
+}
+
+.left{
+  width: 15%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  margin-right: 0px;
+}
+
+.talkbox{
+  float: left;
+  display: inline-block;
+  width: 76%;
+  margin-left: 53px;
+  position: relative;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.talkbox::after{
+   content: "";
+   display: inline-block;
+   width: 0px;
+   height: 0px;
+   border: 40px solid transparent;
+   border-right: 50px solid #333;
+   position: absolute;
+   top: 7%;
+   left: -90px;
+}
+
+.talkbox.two::after{
+  top:35%;
+}
+
+.talkbox.three::after{
+  top:62%;
+}
+
+.boss{
+  text-align: left;
+  margin: 10px;
+}
+
+.left h2{
+  margin-bottom: 5px;
+}
+
+.r{
+  width: 55%;
+  padding-left: 30px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.r p{
+  font-size: 18px;
+}
+
+.r ul{
+  padding: 20px;
+}
+
+.boss,.r,li{
+  color: #fff;
+}
+
+.container{
+  margin: 0px auto;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.footer p{
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-family: "Arial";
+  color: #ffffff;
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+}

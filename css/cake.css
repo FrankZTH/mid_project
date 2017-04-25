@@ -1,0 +1,456 @@
+/*固定版面規格---------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+
+img,
+h2,
+body,
+header,
+section,
+content,
+footer,
+p{
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+body{
+  background-color: #dddddd;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  background-color: black;
+}
+
+.logo{
+  margin-left: 20px;
+  height: 170px;
+  width: auto;
+}
+
+.mid{
+  overflow: auto;
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
+.LEFT{
+    float: left;
+    width: 60vw;
+    padding-top: 20px;
+}
+
+/*固定版面規格-------------------------------------------------*/
+
+
+/*LIFT-----------------------------------------------------*/
+/*cake 1--------------*/
+.cheese_img{
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+
+}
+.cheese_information{
+  float: right;
+  width: 60%;
+}
+
+
+.cheese_max{
+  padding-bottom: 20px;
+}
+.cheese{
+  background: #fff;
+}
+
+/*cake 1--------------*/
+/*cake 2--------------*/
+
+.tiramisu_img{
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+
+.tiramisu_information{
+  float: right;
+  width: 60%;
+}
+.tiramisu_max{
+  padding-bottom: 20px;
+}
+.tiramisu{
+  background: #fff;
+}
+/*cake 2--------------*/
+/*cake 3--------------*/
+.batombo_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.batombo_information{
+  float: right;
+  width: 60%;
+}
+.batombo_max{
+  padding-bottom: 20px;
+}
+.batombo{
+  background: #fff;
+}
+/*cake 3--------------*/
+/*cake 4--------------*/
+.thousand_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.thousand_information{
+  float: right;
+  width: 60%;
+}
+.thousand_max{
+  padding-bottom: 20px;
+}
+.thousand{
+  background: #fff;
+}
+/*cake 4--------------*/
+/*cake 5--------------*/
+.kastira_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.kastira_information{
+  float: right;
+  width: 60%;
+}
+.kastira_max{
+  padding-bottom: 20px;
+}
+.kastira{
+  background: #fff;
+}
+/*cake 5--------------*/
+/*cake 6--------------*/
+.nalon_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.nalon_information{
+  float: right;
+  width: 60%;
+}
+.nalon_max{
+  padding-bottom: 20px;
+}
+.nalon{
+  background: #fff;
+}
+/*cake 6--------------*/
+/*cake 7--------------*/
+.mango_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.mango_information{
+  float: right;
+  width: 60%;
+}
+.mango_max{
+  padding-bottom: 20px;
+}
+.mango{
+  background: #fff;
+}
+/*cake 7--------------*/
+/*cake 8--------------*/
+.coffee_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.coffee_information{
+  float: right;
+  width: 60%;
+}
+.coffee_max{
+  padding-bottom: 20px;
+}
+.coffee{
+  background: #fff;
+}
+/*cake 8--------------*/
+/*cake 9-------------*/
+.motra_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.motra_information{
+  float: right;
+  width: 60%;
+}
+.motra_max{
+  padding-bottom: 20px;
+}
+.motra{
+  background: #fff;
+}
+/*cake 9-------------*/
+/*cake 10-------------*/
+.pofu_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.pofu_information{
+  float: right;
+  width: 60%;
+}
+.pofu_max{
+  padding-bottom: 20px;
+}
+.pofu{
+  background: #fff;
+}
+/*cake 10-------------*/
+/*cake 11-------------*/
+.lemon_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.lemon_information{
+  float: right;
+  width: 60%;
+}
+.lemon_max{
+  padding-bottom: 20px;
+}
+.lemon{
+  background: #fff;
+}
+/*cake 11-------------*/
+/*cake 12-------------*/
+.napolon_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.napolon_information{
+  float: right;
+  width: 60%;
+}
+.napolon_max{
+  padding-bottom: 20px;
+}
+.napolon{
+  background: #fff;
+}
+/*cake 12-------------*/
+/*cake 13-------------*/
+.muse_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.muse_information{
+  float: right;
+  width: 60%;
+}
+.muse_max{
+  padding-bottom: 20px;
+}
+.muse{
+  background: #fff;
+}
+/*cake 13-------------*/
+/*cake 14-------------*/
+.lanma_img {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+}
+.lanma_information{
+  float: right;
+  width: 60%;
+}
+.lanma_max{
+  padding-bottom: 20px;
+}
+.lanma{
+  background: #fff;
+}
+/*cake 14-------------*/
+/*all cake*/
+
+h1{
+  font-size:0.9rem;
+
+  font-family: fantasy;
+}
+
+h2{
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+h3{
+  font-size: 0.9rem;
+}
+/*all cake*/
+
+
+/*LEFT-----------------------------------------------------*/
+
+/*RIGHT-----------------------------------------------------*/
+
+
+
+/*RIGHT-----------------------------------------------------*/
+
+
+
+
+
+
+/*固定版面規格---------------------------------------------------*/
+.container{
+  margin: 0px auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.logo{
+  position: absolute;
+  z-index: 2;
+  max-width: 200px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 50px
+}
+
+.navigation{
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  position: fixed;
+}
+
+.navi{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.navi .n{
+  vertical-align: middle;
+  margin-right: 30px;
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: Arial Black;
+  color: #000000;
+}
+
+.n:hover{
+  position: relative;
+  transform:scale(1.2);
+}
+
+.navi li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navi a{
+  color: #000000;
+}
+
+section{
+  overflow: auto;
+  /*
+  overflow: auto;　//預設會自動使用捲軸
+  overflow:visible;　 //顯示的文字或圖片會直接超出範圍，不使用捲軸。
+  overflow:hidden;　//自動隱藏超出的文字或圖片。
+  overflow:scroll;　//自動產生捲軸。
+  overflow:inherit;　//繼承自父元素的可見性
+  */
+  width: 70%;
+  margin: auto;
+}
+
+.content{
+  width: 50%;/*跟section寬度一樣*/
+  border: 1px solid black;
+  height: 20px;
+  margin: 20px 0;
+  float: left;
+  overflow: auto;
+}
+
+.r{
+  width: 40%;
+}
+
+.rr{
+  width: 10%;
+  height: 20px;
+  float: right;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.footer p{
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-family: "Arial";
+  color: #ffffff;
+  text-align: center;
+}
+/*固定版面規格---------------------------------------------------*/
+
+/*對全部LI去除點--------------------*/
+li{
+  list-style-type:none;
+}
+a{
+  text-decoration:none;
+}

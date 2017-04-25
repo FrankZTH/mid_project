@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+
+img,
+h2,
+body,
+header,
+section,
+content,
+footer,
+p{
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+body{
+  background-image: url("../img/back2.png");
+  background-size:cover;
+  font-family: 微軟正黑體;
+}
+
+header{
+  width: 100%;
+  height: 340px;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.logo{
+  margin-left: 20px;
+  height: 170px;
+  width: auto;
+}
+
+.container{
+  margin: 0px auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background_image{
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.logo{
+  position: fixed;
+  z-index: 2;
+  max-width: 200px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 50px
+}
+
+.navigation{
+  background-color: #ffffff;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  opacity: 0.9;
+}
+
+.navi{
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.navi .n{
+  vertical-align: middle;
+  margin-right: 30px;
+  font-family: "Microsoft JhengHei";
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: Arial Black;
+  color: #000000;
+}
+
+.n:hover{
+  position: relative;
+  transform:scale(1.2);
+}
+
+.navi li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navi a{
+  color: #000000;
+}
+
+.cafe{
+  width: auto;
+  padding: 10px 10px 25px 10px;
+  background-color: #ffffff;
+}
+
+.slogan{
+  display:block;
+  padding: 10px;
+  margin: auto;
+  width: 500px;
+}
+
+section{
+  overflow: auto;
+  width: 70%;
+  height: auto ;
+  margin: auto;
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
+}
+
+.content{
+  max-width: 720px;
+  width: 60%;
+  height: auto;
+  float: left;
+  text-align: center;
+  /*border: 1px solid black;*/
+  margin-bottom: 10px;
+  padding-left: 28px;
+}
+
+.r{
+  width: 36%;
+  margin: 10px 0 20px 0px;
+  float: right;
+  overflow:visible;
+}
+
+.content.r{
+  height: auto;
+  padding: 0;
+  margin-left: -20px;
+  /*border: 1px solid black;*/
+}
+
+.pic{
+  width: 85%;
+  height: auto;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.con{
+  margin: 0;
+  background-color: #000;
+  width: 85%;
+  margin-left: 28.5px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: -5px;
+  padding-top: 3px;
+  height: 30px;
+}
+
+.con a{
+  color: #ffffff;
+}
+
+.activity{
+  margin-bottom: 10px;
+  text-align: center;
+  transition: all .2s;
+}
+
+.con a:hover{
+  font-weight: 800;
+}
+
+/*.activity:hover{
+  transform:scale(1.05);
+}*/
+
+.cafe{
+  margin: auto;
+  width: 100%;
+}
+
+.info{
+  max-width: 606px;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+
+.product{
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-weight: 1000;
+}
+
+.in{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+
+
+.in a{
+  font-size: 20px;
+  color: #085394;
+  font-weight: 800;
+}
+
+.in .pro{
+  text-align: left;
+  padding: 10px 50px;
+  transition: all .2s;
+}
+
+.in .pro:hover{
+  transform: scale(1.1);
+  padding-right: 20px;
+  margin-left: 30px;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+}
+
+.footer p{
+  font-size: 15px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  font-family: "Arial";
+  color: #ffffff;
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+}
